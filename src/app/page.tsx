@@ -6,7 +6,7 @@ type Props = {
     onClick: () => void;
 }
 
-function Square({value, onSquareClick}) {
+function Square({value, onSquareClick}: {value:any, onSquareClick:any}) {
     return <button className="W-16 h-16 bg-zinc-200" onClick={onSquareClick}>{value}</button>;
 }
 
@@ -14,7 +14,7 @@ export default function Board() {
     const [xIsNext, setXIsNext] = useState(true);
     const [squares, setSquares] = useState(Array(9).fill(null));
 
-    function handleClick(i) {
+    function handleClick(i:any) {
         if (squares[i] || calculateWinner(squares)) {
             return;
         }
@@ -49,7 +49,7 @@ export default function Board() {
     );
 }
 
-function calculateWinner(squares) {
+function calculateWinner(squares: any) {
     const lines = [
         [0, 1, 2],
         [3, 4, 5],
