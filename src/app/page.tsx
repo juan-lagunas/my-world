@@ -1,11 +1,6 @@
 'use client';
 import { useState } from 'react';
 
-type Props = {
-    value: string;
-    onClick: () => void;
-}
-
 function Square({value, onSquareClick}: {value:any, onSquareClick:any}) {
     return <button className="W-16 h-16 bg-zinc-200" onClick={onSquareClick}>{value}</button>;
 }
