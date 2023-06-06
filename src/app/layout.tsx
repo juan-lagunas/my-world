@@ -1,17 +1,26 @@
 import './globals.css'
+import Link from 'next/link';
 
 export const metadata = {
-  title: "My world",
+    title: "My world",
 }
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode
+    children: React.ReactNode
 }) {
-  return (
+    return (
     <html lang="en">
-      <body className="bg-violet-600">{children}</body>
+        <body>
+            <nav className="fixed h-[52px] w-full z-10 bg-[#161616] bg-opacity-70">
+                <div className="max-w-[980px] h-full mx-auto text-[#d6d6d6] flex justify-between items-center">
+                    <Link href="/" className="font-bold text-2xl">PBJ</Link>
+                    <Link href="/game" className="font-semibold text-sm">Game</Link>
+                </div>
+            </nav>
+            {children}
+        </body>
     </html>
-  )
+    );
 }
