@@ -14,7 +14,7 @@ export default function RootLayout({
     <html lang="en">
         <body>
             <nav className="fixed h-[52px] w-full z-10 bg-[#161616] bg-opacity-70">
-                <div className="max-w-[980px] h-full mx-auto text-[#ffffff] flex justify-between items-center">
+                <div className="w-3/4 sm:max-w-[980px] h-full mx-auto text-[#ffffff] flex justify-between items-center">
                     <Link href="/" className="font-bold text-2xl">PBJ</Link>
                     <Link href="/game" className="font-semibold text-sm">Game</Link>
                 </div>
