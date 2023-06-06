@@ -5,9 +5,11 @@ function Square({value, onSquareClick}: {value:any, onSquareClick:any}) {
     return <button className="h-24 sm:w-32 sm:h-32 text-2xl sm:text-3xl font-bold bg-zinc-200 hover:bg-zinc-400 transition ease-in-out" onClick={onSquareClick}>{value}</button>;
 }
 
+let moves = 0;
 export default function Board() {
     const [xIsNext, setXIsNext] = useState(true);
     const [squares, setSquares] = useState(Array(9).fill(null));
+    
 
     function handleClick(i:any) {
         if (squares[i] || calculateWinner(squares)) {
@@ -21,12 +23,15 @@ export default function Board() {
         }
         setSquares(nextSquares);
         setXIsNext(!xIsNext);
+        moves ++;
     }
 
     const winner = calculateWinner(squares);
     let status;
     if (winner) {
         status = winner + ' wins!'
+    } else if (moves === 9) {
+        status = "It's a tie!"
     } else {
         status = 'Next player: ' + (xIsNext ? "X": "O");
     }
