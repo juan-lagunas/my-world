@@ -41,7 +41,7 @@ export default function Board() {
                 <div className="font-bold text-3xl sm:text-6xl mb-3">Tic-Tac-Toe</div>
                 <div className="font-semibold text-xl mb-3">{status}</div>
                 <div className="w-10/12 sm:w-auto mx-auto grid grid-cols-3 grid-rows-3 text-gray-600 shadow-md rounded-xl overflow-hidden gap-1">
-                    {[...Array(9)].map((e, i) => <Square key={i} value={squares[i]} onSquareClick={() => handleClick(i)}/>)}
+                    {Array(9).fill(null).map((e, i) => <Square key={i} value={squares[i]} onSquareClick={() => handleClick(i)}/>)}
                 </div>
             </div>
         </main>
