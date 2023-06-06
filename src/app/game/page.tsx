@@ -40,7 +40,7 @@ export default function Game() {
     }
 
     return (
-        <main className="flex min-h-screen w-full bg-[#1E1725]">
+        <main className="flex min-h-screen w-full bg-[#0D0B12]">
             <div className="w-full sm:w-auto m-auto text-center text-white">
                 <div className="font-bold text-3xl sm:text-6xl mb-3">Tic-Tac-Toe</div>
                 <div className="font-semibold text-xl mb-3">{status}</div>
