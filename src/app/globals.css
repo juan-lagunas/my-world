@@ -15,7 +15,7 @@
 
 @media screen and (max-width:640px) {
     .hero {
-        height: 600px;
-        background-size: 1200px 600px;
+        height: 850px;
+        background-size: 1200px 850px;
     }
 }
