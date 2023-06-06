@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 function Square({value, onSquareClick}: {value:any, onSquareClick:any}) {
-    return <button className="h-24 sm:w-32 sm:h-32 text-2xl sm:text-3xl font-bold bg-zinc-200 hover:bg-zinc-400 transition ease-in-out" onClick={onSquareClick}>{value}</button>;
+    return <button className="h-24 sm:w-32 sm:h-32 text-2xl sm:text-3xl font-bold bg-zinc-200 sm:hover:bg-zinc-400 transition ease-in-out" onClick={onSquareClick}>{value}</button>;
 }
 
 let moves = 0;
