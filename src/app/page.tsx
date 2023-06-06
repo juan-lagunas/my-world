@@ -32,7 +32,7 @@ export default function Board() {
     }
 
     return (
-        <main className="flex min-h-screen w-full bg-violet-600">
+        <main className="flex min-h-screen w-full">
             <div className="w-full sm:w-auto m-auto text-center text-white">
                 <div className="font-bold text-3xl sm:text-6xl mb-2">Tic-Tac-Toe</div>
                 <div className="font-semibold text-xl mb-2">{status}</div>
