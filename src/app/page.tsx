@@ -1,7 +1,7 @@
 export default function World() {
     return (
         <>
-            <section className="w-full h-[600px] sm:min-h-[1024px] bg-gradient-to-b from-black to-[#111010] flex">
+            <section className="w-screen h-[600px] sm:min-h-[1024px] bg-gradient-to-b from-black to-[#111010] flex">
                 <div className="max-[400px]:h-64 max-[400px]:w-10/12 h-72 w-[400px] sm:w-[600px] sm:h-96 m-auto bg-[#ff1313] rounded-[45px] grid grid-rows-3 shadow-2xl shadow-[rgb(42,56,255)] hover:shadow-[rgb(134,42,255)] hover:scale-110 transiton duration-300 ">
                     <div className="row-span-1 text-white text-center flex">
                         <div className="m-auto">
