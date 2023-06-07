@@ -20,11 +20,11 @@ export default function RootLayout({
         <body className="bg-black">
             <nav className="h-[52px] w-full font-mono font-extrabold text-2xl">
                 <div className="w-3/4 sm:max-w-[980px] h-full mx-auto text-white flex justify-center items-center gap-3 ">
-                    <Link href="/" className="hover:scale-110 hover:-translate-y-1 transition ease-in-out duration-200">Home</Link>
+                    <Link href="/" className="sm:hover:scale-110 sm:hover:-translate-y-1 transition ease-in-out duration-200">Home</Link>
                     <span>&#183;</span>
-                    <Link href="/game" className="hover:scale-110 hover:-translate-y-1 transition ease-in-out duration-200">Games</Link>
+                    <Link href="/game" className="sm:hover:scale-110 sm:hover:-translate-y-1 transition ease-in-out duration-200">Games</Link>
                     <span>&#183;</span>
-                    <Link href="/game" className="hover:scale-110 hover:-translate-y-1 transition ease-in-out duration-200">Games</Link>
+                    <Link href="/game" className="sm:hover:scale-110 sm:hover:-translate-y-1 transition ease-in-out duration-200">Games</Link>
                 </div>
             </nav>
             {children}
