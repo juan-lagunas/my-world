@@ -25,15 +25,15 @@ export default function Game() {
         }
         setSquares(nextSquares);
         setXIsNext(!xIsNext);
-        setCount(count + 1)
+        setCount(count + 1);
     }
 
     const winner = calculateWinner(squares);
     let status;
     if (winner) {
-        status = winner + ' wins!'
+        status = winner + ' wins!';
     } else if (count === 9) {
-        status = "It's a tie!"
+        status = "It's a tie!";
     } else {
         status = 'Next player: ' + (xIsNext ? "X": "O");
     }

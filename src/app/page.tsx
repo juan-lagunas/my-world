@@ -2,7 +2,6 @@
 import { useState } from 'react';
 
 
-
 export default function World() {
     const [sticker, setSticker] = useState(true);
     
@@ -25,7 +24,7 @@ export default function World() {
                             { sticker ? <div className="font-marker text-5xl sm:text-7xl m-auto">Juan Lagunas</div> 
                                 : 
                                 <div className="font-marker text-4xl m-auto">
-                                    <div className="sm:p-10">I'm a CS student with an array of <a className="text-[rgb(109,109,109)] hover:text-blue-700 transition ease-in-out duration-100" href="#skills">[ skills ]</a></div>
+                                    <div className="sm:p-10">I am a CS student with an array of <a className="text-[rgb(109,109,109)] hover:text-blue-700 transition ease-in-out duration-100" href="#skills">[ skills ]</a></div>
                                 </div>
                             }
                         </div>
@@ -56,21 +55,21 @@ export default function World() {
                 </section>
 
                 <section id="skills" className="h-screen flex snap-start">
-                    <div  className="w-3/4 sm:w-1/2 m-auto grid grid-cols-2 gap-6 ">
+                    <div className="w-3/4 sm:w-1/2 m-auto grid grid-cols-2 gap-6">
                         <div className="h-96 rounded-2xl bg-zinc-900"></div>
                         <div className="h-96 rounded-2xl bg-zinc-900"></div>
                     </div>
                 </section>
 
                 <section id="projects" className="h-screen flex snap-start bg-zinc-100">
-                    <div  className="w-3/4 sm:w-1/2 m-auto grid grid-cols-2 gap-6 ">
+                    <div className="w-3/4 sm:w-1/2 m-auto grid grid-cols-2 gap-6">
                         <div className="h-96 rounded-2xl bg-zinc-900"></div>
                         <div className="h-96 rounded-2xl bg-zinc-900"></div>
                     </div>
                 </section>
 
                 <section id="contact" className="h-screen flex snap-start">
-                    <div  className="w-3/4 sm:w-1/2 m-auto grid grid-cols-2 gap-6 ">
+                    <div className="w-3/4 sm:w-1/2 m-auto grid grid-cols-2 gap-6">
                         <div className="h-96 rounded-2xl bg-zinc-900"></div>
                         <div className="h-96 rounded-2xl bg-zinc-900"></div>
                     </div>
