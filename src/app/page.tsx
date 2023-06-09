@@ -32,22 +32,22 @@ export default function World() {
                 </section>
                 
                 <section id="about" className="h-screen flex snap-start bg-zinc-100">
-                    <div className="w-11/12 sm:w-1/2 m-auto">
+                    <div className="w-10/12 sm:w-1/2 m-auto">
                         <div className=" text-center mb-5 sm:mb-10">
                             <div className="text-3xl sm:text-7xl font-bold mb-3 sm:mb-6">Sem integer vitae justo</div>
                             <div className=" sm:text-lg ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                         </div>
-                        <div className="relative h-[650px] w-full flex gap-20 snap-x overflow-x-scroll snap-mandatory">
-                            <div className="w-[80%] h-[600px] snap-center float-left shrink-0 bg-[#6161a5] rounded-2xl shadow-lg my-auto">
+                        <div className="relative h-[450px] sm:h-[650px] w-full flex gap-20 snap-x overflow-x-scroll snap-mandatory">
+                            <div className="w-[80%] h-[420px] sm:h-[600px] snap-center float-left shrink-0 bg-[#6161a5] rounded-2xl shadow-lg m-auto">
                                 a
                             </div>
-                            <div className="w-[80%] h-[600px] snap-center float-left shrink-0 bg-[#b174ae] rounded-2xl shadow-lg my-auto scale-105">
+                            <div className="w-[80%] h-[420px] sm:h-[600px] snap-center float-left shrink-0 bg-[#b174ae] rounded-2xl shadow-lg m-auto scale-105">
                                 b
                             </div>
-                            <div className="w-[80%] h-[600px] snap-center float-left shrink-0 bg-[#5bb995] rounded-2xl shadow-lg my-auto">
+                            <div className="w-[80%] h-[420px] sm:h-[600px] snap-center float-left shrink-0 bg-[#5bb995] rounded-2xl shadow-lg m-auto">
                                 c
                             </div>
-                            <div className="w-[80%] h-[600px] snap-center float-left shrink-0 bg-[#b9905b] rounded-2xl shadow-lg my-auto">
+                            <div className="w-[80%] h-[420px] sm:h-[600px] snap-center float-left shrink-0 bg-[#b9905b] rounded-2xl shadow-lg m-auto">
                                 d
                             </div>
                         </div>
