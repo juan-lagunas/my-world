@@ -1,6 +1,5 @@
 'use client';
 import { useState } from 'react';
-import Link from 'next/link';
 
 function Square({value, onSquareClick}: {value:any, onSquareClick:any}) {
     if (!value) {
@@ -40,7 +39,7 @@ export default function Game() {
     }
 
     return (
-        <main className="flex min-h-screen w-full bg-gradient-to-b from-black to-[#131212]">
+        <main className="flex min-h-screen w-full bg-black">
             <div className="w-full sm:w-auto m-auto text-center text-white">
                 <div className="font-bold text-3xl sm:text-6xl mb-3">Tic-Tac-Toe</div>
                 <div className="font-semibold text-xl mb-3">{status}</div>

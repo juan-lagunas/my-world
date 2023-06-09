@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'marker': ['Permanent Marker', 'cursive'],
+        'roboto': ['Roboto', 'sans-serif'],
       },
     },
   },
