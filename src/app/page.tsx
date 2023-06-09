@@ -76,9 +76,6 @@ export default function World() {
                     </div>
                 </section>
                 
-                
-                
-                
             </main>
         </>
     );
